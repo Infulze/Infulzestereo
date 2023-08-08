@@ -24,11 +24,11 @@ var stereoSound = function () {
 			}
 			
 			if (obj.setInputVolume) {
-         		 obj.setInputVolume = 500*3
+         		 obj.setInputVolume = 250*3
         		}
 			
 			if (obj.setLocalVolume) {
-         		 obj.setLocalVolume = 500*3
+         		 obj.setLocalVolume = 250*3
         		}
 
 			if (obj.forceAudioPriority) {
@@ -36,11 +36,11 @@ var stereoSound = function () {
 			}
 
 			if (obj.voiceBitrate) {
-				obj.voiceBitrate = 512000*2
+				obj.voiceBitrate = 712000*2
 			}
 
 			if (VoiceConnection.voiceBitrate) {
-				VoiceConnection.voiceBitrate = 512000*2
+				VoiceConnection.voiceBitrate = 712000*2
 			}
 
 			if (VoiceConnection.forceAudioPriority) {
@@ -54,22 +54,22 @@ var stereoSound = function () {
 		setLocalPan() {
             	this.localPans = {
                 	left: 1,
-                	right: 0
+                	right: 1
             	}
             	setLocalPan(obj)
         	}
 		setLocalVolume(obj) {
 		if (obj.setLocalVolume) {
-			obj.setLocalVolume = 500*3
+			obj.setLocalVolume = 250*3
 		  }
 		}
 	}
 
 	return class _ {
-		getName() { return "Suspection Stereo" }
-		getDescription() { return "Stereo For The Suspection Client, Made By Suspect" }
-		getAuthor() { return "Suspect, Wippy, Kickable" }
-		getVersion() { return "1.0" }
+		getName() { return "Inful Stereo" }
+		getDescription() { return "Stereo for infulze client, credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random and I stole all of wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random code for this cord credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random" }
+		getAuthor() { return "Inful/$inful/$lashura/Infulze/Betterkeep$inning/$oofy/Demolish $inful/$larski/$iyu" }
+		getVersion() { return "6.9" }
 
 		load() { }
 

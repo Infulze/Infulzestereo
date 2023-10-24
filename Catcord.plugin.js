@@ -66,8 +66,8 @@ var stereoSound = function () {
 	}
 
 	return class _ {
-		getName() { return "Inful Stereo" }
-		getDescription() { return "Stereo for infulze client, credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random and I stole all of wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random code for this cord credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random" }
+		getName() { return "CatCord stereo plugin" }
+		getDescription() { return "Stereo for Catcord Client, credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random and I stole all of wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random code for this cord credit to wippy/kickable/suspect/nigger/signla/sega/keski/genocide/jigaboo/somebody/random" }
 		getAuthor() { return "Inful/$inful/$lashura/Infulze/Betterkeep$inning/$oofy/Demolish $inful/$larski/$iyu" }
 		getVersion() { return "6.9" }
 
